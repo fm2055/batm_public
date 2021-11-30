@@ -910,7 +910,7 @@
         <cryptologo cryptocurrency="DOGE" file="doge.png"/>
         <cryptologo cryptocurrency="DOGE" file="doge.svg"/>
     </extension>
-    <extension class="com.generalbytes.batm.server.extensions.extra.newyorkcoin.NewYorkCoinExtension" >
+    <extension class="com.generalbytes.batm.server.extensions.extra.newyorkcoin.NewyorkcoinExtension" >
         <wallet prefix="newyorkcoind" name="Newyorkcoind">
             <tunnel supported="true"/>
             <sendtomany supported="true"/>
@@ -941,7 +941,7 @@
         <cryptologo cryptocurrency="NYC" file="nyc.png"/>
         <cryptologo cryptocurrency="NYC" file="nyc.svg"/>
     </extension>
-    <extension class="com.generalbytes.batm.server.extensions.extra.nesteggcoin.NesteggCoinExtension" >
+    <extension class="com.generalbytes.batm.server.extensions.extra.nesteggcoin.NesteggcoinExtension" >
         <wallet prefix="nesteggd" name="Nesteggd">
             <tunnel supported="true"/>
             <sendtomany supported="true"/>
