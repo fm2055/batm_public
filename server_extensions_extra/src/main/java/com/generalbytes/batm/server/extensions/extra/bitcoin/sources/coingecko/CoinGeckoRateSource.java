@@ -48,6 +48,7 @@ public class CoinGeckoRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.BTDX.getCode(), "bitcloud");
         CRYPTOCURRENCIES.put(CryptoCurrency.BTX.getCode(), "bitcore");
         CRYPTOCURRENCIES.put(CryptoCurrency.BURST.getCode(), "burst");
+        CRYPTOCURRENCIES.put(CryptoCurrency.BUSD.getCode(), "binance-usd");
         CRYPTOCURRENCIES.put(CryptoCurrency.CLOAK.getCode(), "cloakcoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.DAI.getCode(), "dai");
         CRYPTOCURRENCIES.put(CryptoCurrency.BIZZ.getCode(), "bizzcoin");
@@ -61,6 +62,7 @@ public class CoinGeckoRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.ETH.getCode(), "ethereum");
         CRYPTOCURRENCIES.put(CryptoCurrency.FLASH.getCode(), "flash");
         CRYPTOCURRENCIES.put(CryptoCurrency.FTO.getCode(), "futurocoin");
+        CRYPTOCURRENCIES.put(CryptoCurrency.FTT.getCode(), "ftx-token");
         CRYPTOCURRENCIES.put(CryptoCurrency.GRS.getCode(), "groestlcoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.HATCH.getCode(), "hatch");
         CRYPTOCURRENCIES.put(CryptoCurrency.ILC.getCode(), "ilcoin");
@@ -79,6 +81,7 @@ public class CoinGeckoRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.NANO.getCode(), "nano");
         CRYPTOCURRENCIES.put(CryptoCurrency.NULS.getCode(), "nuls");
         CRYPTOCURRENCIES.put(CryptoCurrency.NXT.getCode(), "nxt");
+        CRYPTOCURRENCIES.put(CryptoCurrency.OMG.getCode(), "omisego");
         CRYPTOCURRENCIES.put(CryptoCurrency.PAXG.getCode(), "pax-gold");
         CRYPTOCURRENCIES.put(CryptoCurrency.POT.getCode(), "potcoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.REP.getCode(), "augur");
@@ -97,7 +100,9 @@ public class CoinGeckoRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.XMR.getCode(), "monero");
         CRYPTOCURRENCIES.put(CryptoCurrency.XRP.getCode(), "ripple");
         CRYPTOCURRENCIES.put(CryptoCurrency.TENT.getCode(), "tent");
+        CRYPTOCURRENCIES.put(CryptoCurrency.XTZ.getCode(), "tezos");
         CRYPTOCURRENCIES.put(CryptoCurrency.XZC.getCode(), "zcoin");
+        CRYPTOCURRENCIES.put(CryptoCurrency.YFI.getCode(), "yearn-finance");
         CRYPTOCURRENCIES.put(CryptoCurrency.ZPAE.getCode(), "zelaapayae");
     }
 

@@ -64,6 +64,7 @@ public class CoinPaprikaRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.ETH.getCode(), "eth-ethereum");
         CRYPTOCURRENCIES.put(CryptoCurrency.FLASH.getCode(), "flash-flash");
         CRYPTOCURRENCIES.put(CryptoCurrency.FTO.getCode(), "fto-futurocoin");
+        CRYPTOCURRENCIES.put(CryptoCurrency.FTT.getCode(), "ftt-ftx-token");
         CRYPTOCURRENCIES.put(CryptoCurrency.GRS.getCode(), "grs-groestlcoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.HATCH.getCode(), "hatch-hatch");
         CRYPTOCURRENCIES.put(CryptoCurrency.HBX.getCode(), "hbx-hashbx");
@@ -81,6 +82,7 @@ public class CoinPaprikaRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.NLG.getCode(), "nlg-gulden");
         CRYPTOCURRENCIES.put(CryptoCurrency.NULS.getCode(), "nuls-nuls");
         CRYPTOCURRENCIES.put(CryptoCurrency.NXT.getCode(), "nxt-nxt");
+        CRYPTOCURRENCIES.put(CryptoCurrency.OMG.getCode(), "omg-omg-network");
         CRYPTOCURRENCIES.put(CryptoCurrency.PAXG.getCode(), "paxg-pax-gold");
         CRYPTOCURRENCIES.put(CryptoCurrency.POT.getCode(), "pot-potcoin");
         CRYPTOCURRENCIES.put(CryptoCurrency.REP.getCode(), "rep-augur");
@@ -100,7 +102,9 @@ public class CoinPaprikaRateSource implements IRateSource {
         CRYPTOCURRENCIES.put(CryptoCurrency.XMR.getCode(), "xmr-monero");
         CRYPTOCURRENCIES.put(CryptoCurrency.XRP.getCode(), "xrp-xrp");
         CRYPTOCURRENCIES.put(CryptoCurrency.TENT.getCode(), "tent-tent");
+        CRYPTOCURRENCIES.put(CryptoCurrency.XTZ.getCode(), "xtz-tezos");
         CRYPTOCURRENCIES.put(CryptoCurrency.XZC.getCode(), "xzc-zcoin");
+        CRYPTOCURRENCIES.put(CryptoCurrency.YFI.getCode(), "yfi-yearnfinance");
     }
 
     private final CoinPaprikaV1API api;

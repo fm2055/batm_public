@@ -233,6 +233,7 @@
                 <cryptocurrency>BTDX</cryptocurrency>
                 <cryptocurrency>BTX</cryptocurrency>
                 <cryptocurrency>BURST</cryptocurrency>
+                <cryptocurrency>BUSD</cryptocurrency>
                 <cryptocurrency>CLOAK</cryptocurrency>
                 <cryptocurrency>DAI</cryptocurrency>
                 <cryptocurrency>BIZZ</cryptocurrency>
@@ -247,6 +248,7 @@
                 <cryptocurrency>ETC</cryptocurrency>
                 <cryptocurrency>FLASH</cryptocurrency>
                 <cryptocurrency>FTO</cryptocurrency>
+                <cryptocurrency>FTT</cryptocurrency>
                 <cryptocurrency>GRS</cryptocurrency>
                 <cryptocurrency>HATCH</cryptocurrency>
                 <cryptocurrency>HT</cryptocurrency>
@@ -264,6 +266,7 @@
                 <cryptocurrency>NLG</cryptocurrency>
                 <cryptocurrency>NANO</cryptocurrency>
                 <cryptocurrency>NXT</cryptocurrency>
+                <cryptocurrency>OMG</cryptocurrency>
                 <cryptocurrency>POT</cryptocurrency>
                 <cryptocurrency>REP</cryptocurrency>
                 <cryptocurrency>SMART</cryptocurrency>
@@ -282,6 +285,7 @@
                 <cryptocurrency>XPM</cryptocurrency>
                 <cryptocurrency>TENT</cryptocurrency>
                 <cryptocurrency>XZC</cryptocurrency>
+                <cryptocurrency>YFI</cryptocurrency>
                 <cryptocurrency>ZPAE</cryptocurrency>
                 <help>USD is default fiat currency.</help>
             </ratesource>
@@ -456,6 +460,7 @@
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>LTC</cryptocurrency>
             <cryptocurrency>XRP</cryptocurrency>
+            <cryptocurrency>XTZ</cryptocurrency>
         </ratesource>
         <ratesource prefix="poloniex" name="Poloniex">
             <param name="fiatcurrency" />
@@ -519,6 +524,7 @@
             <cryptocurrency>BTDX</cryptocurrency>
             <cryptocurrency>BTX</cryptocurrency>
             <cryptocurrency>BURST</cryptocurrency>
+            <cryptocurrency>BUSD</cryptocurrency>
             <cryptocurrency>CLOAK</cryptocurrency>
             <cryptocurrency>DAI</cryptocurrency>
             <cryptocurrency>BIZZ</cryptocurrency>
@@ -532,6 +538,7 @@
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>FLASH</cryptocurrency>
             <cryptocurrency>FTO</cryptocurrency>
+            <cryptocurrency>FTT</cryptocurrency>
             <cryptocurrency>GRS</cryptocurrency>
             <cryptocurrency>HATCH</cryptocurrency>
             <cryptocurrency>HT</cryptocurrency>
@@ -554,6 +561,7 @@
             <cryptocurrency>NXT</cryptocurrency>
             <cryptocurrency>NYC</cryptocurrency>
             <cryptocurrency>POT</cryptocurrency>
+            <cryptocurrency>OMG</cryptocurrency>
             <cryptocurrency>REP</cryptocurrency>
             <cryptocurrency>SMART</cryptocurrency>
             <cryptocurrency>SPICE</cryptocurrency>
@@ -571,7 +579,9 @@
             <cryptocurrency>XPM</cryptocurrency>
             <cryptocurrency>XRP</cryptocurrency>
             <cryptocurrency>TENT</cryptocurrency>
+            <cryptocurrency>XTZ</cryptocurrency>
             <cryptocurrency>XZC</cryptocurrency>
+            <cryptocurrency>YFI</cryptocurrency>
             <cryptocurrency>ZPAE</cryptocurrency>
         </ratesource>
         <ratesource prefix="coinpaprika" name="CoinPaprika.com">
@@ -602,6 +612,7 @@
             <cryptocurrency>ETH</cryptocurrency>
             <cryptocurrency>FLASH</cryptocurrency>
             <cryptocurrency>FTO</cryptocurrency>
+            <cryptocurrency>FTT</cryptocurrency>
             <cryptocurrency>GRS</cryptocurrency>
             <cryptocurrency>HATCH</cryptocurrency>
             <cryptocurrency>HT</cryptocurrency>
@@ -623,6 +634,7 @@
             <cryptocurrency>NXT</cryptocurrency>
             <cryptocurrency>NYC</cryptocurrency>
             <cryptocurrency>POT</cryptocurrency>
+            <cryptocurrency>OMG</cryptocurrency>
             <cryptocurrency>REP</cryptocurrency>
             <cryptocurrency>SMART</cryptocurrency>
             <cryptocurrency>SPICE</cryptocurrency>
@@ -639,6 +651,8 @@
             <cryptocurrency>WDC</cryptocurrency>
             <cryptocurrency>XMR</cryptocurrency>
             <cryptocurrency>XRP</cryptocurrency>
+            <cryptocurrency>XTZ</cryptocurrency>
+            <cryptocurrency>YFI</cryptocurrency>
             <cryptocurrency>TENT</cryptocurrency>
             <cryptocurrency>XZC</cryptocurrency>
             <cryptocurrency>ADA</cryptocurrency>
@@ -655,12 +669,14 @@
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DOGE</cryptocurrency>
             <cryptocurrency>ETH</cryptocurrency>
+            <cryptocurrency>FTT</cryptocurrency>
             <cryptocurrency>GRS</cryptocurrency>
             <cryptocurrency>KMD</cryptocurrency>
             <cryptocurrency>LSK</cryptocurrency>
             <cryptocurrency>LTC</cryptocurrency>
             <cryptocurrency>NANO</cryptocurrency>
             <cryptocurrency>NULS</cryptocurrency>
+            <cryptocurrency>OMG</cryptocurrency>
             <cryptocurrency>PAXG</cryptocurrency>
             <cryptocurrency>REP</cryptocurrency>
             <cryptocurrency>SYS</cryptocurrency>
@@ -671,6 +687,8 @@
             <cryptocurrency>XMR</cryptocurrency>
             <cryptocurrency>XRP</cryptocurrency>
             <cryptocurrency>XZC</cryptocurrency>
+            <cryptocurrency>XTZ</cryptocurrency>
+            <cryptocurrency>YFI</cryptocurrency>
         </exchange>
         <ratesource prefix="binancecom" name="Binance.com">
             <param name="fiatcurrency" />
@@ -682,12 +700,14 @@
             <cryptocurrency>DASH</cryptocurrency>
             <cryptocurrency>DOGE</cryptocurrency>
             <cryptocurrency>ETH</cryptocurrency>
+            <cryptocurrency>FTT</cryptocurrency>
             <cryptocurrency>GRS</cryptocurrency>
             <cryptocurrency>KMD</cryptocurrency>
             <cryptocurrency>LSK</cryptocurrency>
             <cryptocurrency>LTC</cryptocurrency>
             <cryptocurrency>NANO</cryptocurrency>
             <cryptocurrency>NULS</cryptocurrency>
+            <cryptocurrency>OMG</cryptocurrency>
             <cryptocurrency>PAXG</cryptocurrency>
             <cryptocurrency>REP</cryptocurrency>
             <cryptocurrency>SYS</cryptocurrency>
@@ -2091,7 +2111,48 @@
         <cryptologo cryptocurrency="PAXG" file="paxg.png"/>
         <cryptologo cryptocurrency="PAXG" file="paxg.svg"/>
         <!-- ADD your ERC20 tokens here. And don't forget to add cryptologos. -->
+        <wallet prefix="infuraERC20_FTT_18_0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9" name="Infura.io wallet - FTT">
+            <param name="projectId" />
+            <param name="mnemonic" />
+            <param name="gaslimit" />
+            <param name="gasPriceMultiplier" />
+            <help>Mnemonic should be 24 words delimited by spaces. gaslimit is optional. gasPriceMultiplier (optional) is used to multiply the estimated gas price, e.g. "1.1" for higher priority or "0.9" for lower.</help>
+            <cryptocurrency buyonly="true">FTT</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="FTT" file="ftt.png"/>
+        <cryptologo cryptocurrency="FTT" file="ftt.svg"/>
+        <wallet prefix="infuraERC20_OMG_18_0xd26114cd6EE289AccF82350c8d8487fedB8A0C07" name="Infura.io wallet - OMG">
+            <param name="projectId" />
+            <param name="mnemonic" />
+            <param name="gaslimit" />
+            <param name="gasPriceMultiplier" />
+            <help>Mnemonic should be 24 words delimited by spaces. gaslimit is optional. gasPriceMultiplier (optional) is used to multiply the estimated gas price, e.g. "1.1" for higher priority or "0.9" for lower.</help>
+            <cryptocurrency buyonly="true">OMG</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="OMG" file="omg.png"/>
+        <cryptologo cryptocurrency="OMG" file="omg.svg"/>
+        <wallet prefix="infuraERC20_BUSD_18_0x4fabb145d64652a948d72533023f6e7a623c7c53" name="Infura.io wallet - BUSD">
+            <param name="projectId" />
+            <param name="mnemonic" />
+            <param name="gaslimit" />
+            <param name="gasPriceMultiplier" />
+            <help>Mnemonic should be 24 words delimited by spaces. gaslimit is optional. gasPriceMultiplier (optional) is used to multiply the estimated gas price, e.g. "1.1" for higher priority or "0.9" for lower.</help>
+            <cryptocurrency buyonly="true">BUSD</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="BUSD" file="busd.png"/>
+        <cryptologo cryptocurrency="BUSD" file="busd.svg"/>
+        <wallet prefix="infuraERC20_YFI_18_0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e" name="Infura.io wallet - YFI">
+            <param name="projectId" />
+            <param name="mnemonic" />
+            <param name="gaslimit" />
+            <param name="gasPriceMultiplier" />
+            <help>Mnemonic should be 24 words delimited by spaces. gaslimit is optional. gasPriceMultiplier (optional) is used to multiply the estimated gas price, e.g. "1.1" for higher priority or "0.9" for lower.</help>
+            <cryptocurrency buyonly="true">YFI</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="YFI" file="yfi.png"/>
+        <cryptologo cryptocurrency="YFI" file="yfi.svg"/>
     </extension>
+    
 
     <!--<extension class="com.generalbytes.batm.server.extensions.extra.examples.TransactionExtension" />-->
     <!--<extension class="com.generalbytes.batm.server.extensions.extra.examples.ProfitOverrideExtension" />-->
@@ -2239,6 +2300,14 @@
         <cryptologo cryptocurrency="USDTTRON" file="usdttron.svg"/>
     </extension>
     <extension class="com.generalbytes.batm.server.extensions.extra.ethereumclassic.EthereumClassicExtension">
+    </extension>
+    <extension class="com.generalbytes.batm.server.extensions.extra.tezos.TezosExtension" >
+        <ratesource prefix="xtzfix" name ="Fix Price" >
+            <param name="price" />
+            <cryptocurrency>XTZ</cryptocurrency>
+        </ratesource>
+        <cryptologo cryptocurrency="XTZ" file="xtz.svg"/>
+        <cryptologo cryptocurrency="XTZ" file="xtz.png"/>
     </extension>
 
 </extensions>
